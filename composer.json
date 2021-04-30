@@ -1,0 +1,36 @@
+{
+    "name": "mhidea/laravel-requests-stat",
+    "description": "Laravel requests Statistic",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "requests stat"
+    ],
+    "authors": [
+        {
+            "name": "MohammadHassan Haghighifard",
+            "email": "mhideadesign@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": ">=5.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mhidea\\LaravelRequestsStat\\LaravelRequestsStatServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Mhidea\\LaravelRequestsStat\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
